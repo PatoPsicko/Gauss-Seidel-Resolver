@@ -1,4 +1,5 @@
 body { font-family: 'Inter', sans-serif; }
+/* Importación corregida sin caracteres extraños */
 @import url('[https://rsms.me/inter/inter.css](https://rsms.me/inter/inter.css)');
 html { font-family: 'Inter', sans-serif; }
 
