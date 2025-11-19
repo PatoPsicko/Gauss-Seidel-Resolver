@@ -1,0 +1,27 @@
+body { font-family: 'Inter', sans-serif; }
+@import url('[https://rsms.me/inter/inter.css](https://rsms.me/inter/inter.css)');
+html { font-family: 'Inter', sans-serif; }
+
+.matrix-input {
+    font-family: 'Consolas', 'Monaco', 'monospace';
+    text-align: right;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    border: 1px solid #D1D5DB;
+    width: 100%;
+}
+.interactive-cell {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.interactive-cell:hover {
+    background-color: #EFF6FF;
+    color: #2563EB;
+    font-weight: bold;
+}
+.interactive-cell.selected {
+    background-color: #BFDBFE !important;
+    border: 2px solid #3B82F6;
+    color: #1E40AF;
+    font-weight: bold;
+}
